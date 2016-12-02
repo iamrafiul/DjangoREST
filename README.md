@@ -6,7 +6,7 @@ A simple RESTful API built in [Django Rest Framework(DRF)](http://www.django-res
 A sqlite3 database named "student.sqlite3" is included in the repository with some sample data for testing.
 
 ## Running the app
-From the root directory run the following command from terminal
+From the root directory run the following commands in terminal
 
 ```
 pip install -r requirements.txt
