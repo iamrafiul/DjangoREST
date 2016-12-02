@@ -6,16 +6,19 @@ A simple RESTful API built in [Django Rest Framework(DRF)](http://www.django-res
 A sqlite3 database named "students.sqlite3" is included in the repository with some sample data for testing.
 
 ## Running the app
-Go the the directory where manage.py is and run the following command from terminal
+From the root directory run the following command from terminal
 
 ```
+pip install -r requirements.txt
+
 python manage.py runserver
 ```
 It will run the server at localhost:8000/ by default.
 
 
 
-###N. B: You can install django and django-rest-framework using 
+### Note
+You can install django and django-rest-framework using 
 
 ```
 pip install django djangorestframework
