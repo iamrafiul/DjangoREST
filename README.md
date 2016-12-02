@@ -3,7 +3,7 @@
 ## Introduction
 A simple RESTful API built in [Django Rest Framework(DRF)](http://www.django-rest-framework.org/) using Django DB Models and DRF's Model View Set.
 
-A sqlite3 database named "students.sqlite3" is included in the repository with some sample data for testing.
+A sqlite3 database named "student.sqlite3" is included in the repository with some sample data for testing.
 
 ## Running the app
 From the root directory run the following command from terminal
@@ -18,7 +18,7 @@ It will run the server at localhost:8000/ by default.
 
 
 ### Note
-You can install django and django-rest-framework using 
+If the first 'pip' command doesn't work, you can install django and django-rest-framework using the following command.
 
 ```
 pip install django djangorestframework
